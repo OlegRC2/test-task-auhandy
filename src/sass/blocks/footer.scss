@@ -1,0 +1,17 @@
+footer {
+    height: 60px;
+    background: #0D0D0D;
+    padding: 19px 0;
+}
+.footer-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $txtBody;
+    text-align: center;
+    span {
+        color: $orange;
+    }
+}

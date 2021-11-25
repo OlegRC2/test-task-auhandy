@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: 116px;
+    padding: 33px 0;
+    &__title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 22px;
+        text-align: left;
+        text-transform: uppercase;
+        color: $txtTitle;
+        margin-left: 61px;
+        margin-top: 2px;
+    }
+    &__subtitle {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left;
+        color: $txtBody;
+        margin-left: 61px;
+        margin-top: 6px;
+    }
+    &__link {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: $txtTitle;
+        margin-left: 10px;
+    }
+    .navbar {
+        padding-right: 0;
+    }
+    &__search {
+        width: 16px;
+        height: 16px;
+        margin-top: 11px;
+        margin-left: 35px;
+        cursor: pointer;
+    }
+
+}

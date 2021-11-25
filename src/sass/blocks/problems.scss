@@ -1,0 +1,17 @@
+.problems {
+    min-height: 580px;
+    background: url(../img/background-dark.jpg) center (center/cover) no-repeat;
+    padding-top: 176px;
+    &__title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 52px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__btn {
+        margin-top: 32px;
+    }
+}

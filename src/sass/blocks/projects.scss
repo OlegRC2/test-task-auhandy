@@ -1,0 +1,98 @@
+.projects {
+    min-height: 1060px;
+    padding-top: 80px;
+    &__title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $txtTitle;
+    }
+    &__line {
+        width: 60px;
+        height: 3px;
+        background: $blue;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    &__name-wrapper {
+        width: 612px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 42px;
+    }
+    &__name {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: $txtBody;
+        cursor: pointer;
+    }
+    &__img-wrapper {
+        margin-top: 34px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &__item {
+        position: relative;
+        :hover {
+            opacity: 1;
+        }
+    }
+    &__img {
+        width: 380px;
+        height: 292px;
+    }
+    &__descr {
+        width: 380px;
+        height: 292px;
+        position: absolute;
+        top: 0;
+        background: linear-gradient(0deg, rgba(28, 62, 155, 0.8), rgba(28, 62, 155, 0.8));
+        opacity: 0;
+    }
+    &__item-title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: $orange;
+        margin-top: 109px;
+    }
+    &__item-subtitle {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        color: $gray;
+        margin-top: 5px;
+    }
+    &__icon-search {
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
+        cursor: pointer;
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 65px;
+    }
+}
+.projects-name-active {
+    color: $orange;
+}

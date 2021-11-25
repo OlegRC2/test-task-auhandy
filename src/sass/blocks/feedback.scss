@@ -1,0 +1,70 @@
+.feedback {
+    min-height: 698px;
+    background: url(../img/big-bricks.jpg) center (center/cover) no-repeat;
+    padding-top: 80px;
+    &__title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: $txtTitle;
+    }
+    &__line {
+        width: 60px;
+        height: 3px;
+        background: $blue;
+        margin-top: 20px;
+    }
+    &__map {
+        width: 470px;
+        height: 420px;
+        background: #E5E5E5;
+        border: 4px solid #FFFFFF;
+        margin-top: 55px;
+        position: relative;
+    }
+    &__label {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__form {
+        margin-top: 55px;
+        width: 637px;
+    }
+    &__input-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        :nth-child(3) {
+            margin-top: 20px;
+        }
+        :nth-child(4) {
+            margin-top: 20px;
+        }
+    }
+    &__input {
+        width: 310px;
+        height: 50px;
+        border: none;
+        padding: 13px 22px;
+    }
+    &__text-area {
+        width: 637px;
+        height: 127px;
+        margin-top: 20px;
+        border: none;
+        padding: 13px 22px;
+        resize: none;
+    }
+    &__btn {
+        width: 131px;
+        height: 50px;
+        margin-top: 35px;
+        margin-left: 0;
+    }
+}

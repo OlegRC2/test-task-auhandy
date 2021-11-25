@@ -1,0 +1,429 @@
+@media ( max-width: 1200px ) {
+    .header {
+        &__search {
+            margin-left: -5px;
+        }
+    }
+    .promo {
+        &__img {
+            margin-left: 0;
+        }
+    }
+    .choise {
+        padding: 60px 0;
+        &__col-img {
+            display: flex;
+            justify-content: center;
+        }
+        &__title {
+            text-align: center;
+            margin-top: 70px;
+        }
+        &__line {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        &__subtitle {
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 19px;
+        }
+        &__item-wrapper {
+            margin: 0 auto;
+        }
+    }
+    .services {
+        height: 570px;
+        &__item {
+            width: 210px;
+            height: 205px;
+        }
+        &__img {
+            margin-top: 15px;
+        }
+        &__item-subtitle {
+            font-size: 13px;
+            line-height: 22px;
+        }
+    }
+    .projects {
+        height: 1270px;
+        &__img-wrapper {
+            justify-content: center;
+        }
+    }
+    .feedback {
+        &__map {
+            width: 380px;
+            height: 330px;
+        }
+        &__form {
+            width: 425px;
+        }
+        &__input {
+            width: 200px;
+        }
+        &__text-area {
+            width: 425px;
+        }
+    }
+    .contact {
+        height: 700px;
+        &__coupon-wrapper {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media ( max-width: 991px ) {
+    .header {
+        .navbar {
+            float: right;
+            width: 115px;
+            z-index: 100;
+            .navbar-toggler {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .collapsing {
+                margin-top: 50px;
+                background-color: white;
+            }
+            .show {
+                margin-top: 50px;
+                background-color: white;
+            }
+        }
+        &__search {
+            margin-left: 0;
+            margin-top: -4px;
+        }
+    }
+    .promo {
+        &__img {
+            width: 380px;
+            height: 360px;
+        }
+        &__title {
+            margin-top: 140px;
+            text-align: center;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__wrapper-btn {
+            text-align: center;
+        }
+        &__btn-white {
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+    }
+    .services {
+        height: 770px;
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 50px;
+            flex-wrap: wrap;
+            width: 500px;
+            align-items: stretch;
+            align-content: center;
+            justify-content: space-around;
+            :nth-child(3) {
+                margin-top: 20px;
+            }
+            :nth-child(4) {
+                margin-top: 20px;
+            }
+        }
+    }
+    .projects {
+        height: 2140px;
+    }
+    .feedback {
+        &__map {
+            width: 280px;
+            height: 220px;
+        }
+        &__form {
+            width: 350px;
+        }
+        &__input {
+            width: 165px;
+        }
+        &__text-area {
+            width: 350px;
+        }
+    }
+}
+
+@media ( max-width: 767px ) {
+    .promo {
+        height: 520px;
+        &__img {
+            width: 293px;
+            height: 290px;
+            margin-top: 85px;
+        }
+        &__title {
+            font-size: 25px;
+            line-height: 37px;
+            margin-top: 95px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__wrapper-btn {
+            margin-top: 17px;
+        }
+        .orange-btn {
+            width: 145px;
+        }
+    }
+    .experience {
+        &__title {
+            margin-top: 0;
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+    .choise {
+        &__subtitle {
+            width: 520px;
+        }
+        &__item-wrapper {
+            width: 100%;
+        }
+        &__item-subtitle {
+            width: 150px;
+        }
+    }
+    .projects {
+        height: 2160px;
+        &__name-wrapper {
+            width: 320px;
+            flex-wrap: wrap;
+        }
+    }
+    .feedback {
+        height: 900px;
+        padding-top: 60px;
+        &__title {
+            text-align: center;
+            width: 100%;
+            margin-left: 0 !important;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        &__line {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        &__map {
+            margin: 0 auto;
+            margin-top: 55px;
+        }
+        &__form {
+            width: 350px;
+            margin: 0 auto !important;
+        }
+        &__input-wrapper {
+            margin-top: 55px;
+        }
+        &__input {
+            width: 165px;
+        }
+        &__text-area {
+            width: 350px;
+        }
+        &__btn {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+    .line-mobile {
+        margin: 0 auto !important;
+    }
+}
+
+@media ( max-width: 575px ) {
+    .pre-header {
+        &__text {
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+        }
+    }
+    .header {
+        &__title {
+            font-size: 22px;
+        }
+        &__subtitle {
+            font-size: 9px;
+            margin-top: 7px;
+            width: 95px;
+        }
+        .navbar {
+            padding-left: 0;
+        }
+    }
+    .promo {
+        min-height: 640px;
+        &__img {
+            width: 100%;
+            height: auto;
+            
+        }
+        &__title {
+            margin-left: 0;
+        }
+        &__subtitle {
+            margin-left: 0;
+        }
+        &__wrapper-btn {
+            margin-top: 17px;
+        }
+        &__btn-orange {
+            margin-left: 12px;
+        }
+        &__btn-white {
+            margin-left: 12px;
+            margin-top: 10px;
+        }
+    }
+    .experience {
+        height: 190px;
+        &__title {
+            font-size: 14px;
+            line-height: 23px;
+        }
+    }
+    .choise {
+        padding: 30px 0;
+        &__title {
+            margin-top: 40px;
+        }
+        &__subtitle {
+            padding: 0 25px;
+            width: 320px;
+        }
+        &__item-wrapper {
+            width: 255px;
+        }
+        &__item-subtitle {
+            width: 215px;
+        }
+    }
+    .services {
+        height: 1220px;
+        &__wrapper {
+            width: 300px;
+            :nth-child(2) {
+                margin-top: 20px;
+            }
+        }
+    }
+    .projects {
+        height: 1840px;
+        &__name-wrapper {
+            width: 220px;
+        }
+        &__img {
+            width: 300px;
+            height: 235px;
+        }
+        &__descr {
+            width: 300px;
+            height: 235px;
+        }
+        &__item-title {
+            margin-top: 90px;
+        }
+    }
+    .problems {
+        height: 450px;
+        &__title {
+            font-size: 26px;
+            line-height: 38px;
+        }
+    }
+    .feedback {
+        height: 1050px;
+        &__form {
+            width: 300px;
+            margin: 0 auto !important;
+        }
+        &__input-wrapper {
+            justify-content: center;
+            :nth-child(2) {
+                margin-top: 20px;
+            }
+        }
+        &__input {
+            width: 250px;
+        }
+        &__text-area {
+            width: 250px;
+            margin: 0 auto;
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+        &__btn {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+    .awards {
+        height: 340px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        &__img {
+            margin: 5px 0;
+        }
+    }
+    .contact {
+        height: 900px;
+        padding-top: 37px;
+        &__title {
+            text-align: center;
+            margin-top: 20px;
+        }
+        &__item {
+            margin-left: 50px;
+        }
+        &__arrow-wrapper {
+            margin-left: 40px;
+        }
+        &__arrow-text {
+            font-size: 12px;
+        }
+        &__coupon-wrapper {
+            width: 270px;
+        }
+    }
+    .footer-text {
+        font-size: 13px;
+    }
+    .modal-dialog {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .modal {
+        &__wrapper {
+            width: 300px;
+        }
+        &__input {
+            width: 265px;
+        }
+        &__text-area {
+            width: 265px;
+        }
+    }
+}

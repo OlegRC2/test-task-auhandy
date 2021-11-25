@@ -1,0 +1,43 @@
+.promo {
+    width: 100%;
+    height: 670px;
+    background: url(../img/background-color.jpg) center (center/cover) no-repeat;
+    &__img {
+        width: 100%;
+        height: auto;
+        margin-top: 118px;
+        margin-left: 28px;
+    }
+    &__title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        color: #FFFFFF;
+        margin-top: 195px;
+        margin-left: 50px;
+    }
+    &__subtitle {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: $gray;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    &__wrapper-btn {
+        margin-top: 40px;
+    }
+    &__btn-orange {
+        margin-left: 50px;
+    }
+    &__btn-white {
+        background: transparent;
+        border: 2px solid $gray;
+        margin-left: 15px;
+    }
+    
+}
